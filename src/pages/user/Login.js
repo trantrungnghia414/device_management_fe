@@ -3,7 +3,7 @@ import config from "../../config";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../components/admin/AuthContext";
-import axios from "axios";
+import axios from "../../config/axios";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
